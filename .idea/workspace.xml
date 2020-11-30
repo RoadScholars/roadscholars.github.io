@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459fcf0a-aa22-40ae-a0c1-b08dd198cdde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Images/Background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +34,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Images" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Data" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
