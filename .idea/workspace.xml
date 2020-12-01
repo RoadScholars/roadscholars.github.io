@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459fcf0a-aa22-40ae-a0c1-b08dd198cdde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/Driving.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Road2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/mvw1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/collectedSamples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/nCrackLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/tComparison.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/MvF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traffic.html" beforeDir="false" afterPath="$PROJECT_DIR$/traffic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +37,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Images" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Data" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,10 +71,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1606012551964" />
-    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606722609679">
+    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606722860989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606722609679" />
+    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606722860989" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606012608650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
