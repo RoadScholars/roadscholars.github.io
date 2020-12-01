@@ -196,7 +196,9 @@ var data = [trace1, trace2, trace3];
 
 var layout = {
   title: 'Annual Traffic',
-  xaxis: {tickfont: {
+  xaxis: {
+    title: 'Year',
+    tickfont: {
       size: 14,
       color: 'rgb(107, 107, 107)'
     }},

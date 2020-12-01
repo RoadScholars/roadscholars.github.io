@@ -198,7 +198,11 @@ var mixChart = new Chart(mix, {
       xAxes: [{
         gridLines: {
           display: false
-        }
+        },
+        scaleLabel: {
+          display: true,
+          labelString: 'Location'
+        },
       }
       ]
     },

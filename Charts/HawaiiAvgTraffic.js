@@ -28,9 +28,36 @@ var myChart = new Chart(pie, {
         display:false,
         position:'right'
       },
-        title: {
+      scales: {
+        yAxes: [
+          {
+            id: "Average kESAL",
+            ticks: {
+              beginAtZero: true,
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Average kESAL'
+            },
+            gridLines: {
+              display: false
+            }
+          },
+        ],
+        xAxes: [{
+          gridLines: {
+            display: false
+          },
+          scaleLabel: {
             display: true,
-            text: "Average Traffic Per Road Section"
+            labelString: 'Section'
+          },
+        }
+        ]
+      },
+        title: {
+            display: false,
+            text: "Average Hawaiian Traffic"
         }
     }
 });

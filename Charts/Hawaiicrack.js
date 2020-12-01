@@ -45,7 +45,7 @@ var layout = {
       color: 'rgb(107, 107, 107)'
     }},
   yaxis: {
-    title: 'kESAL / Year',
+    title: 'kESAL',
     titlefont: {
       size: 16,
       color: 'rgb(107, 107, 107)'
