@@ -47,8 +47,12 @@ var myChart = new Chart(pie, {
         ]
     },
     options: {
+      legend:{
+        display:true,
+        position:'right'
+      },
         title: {
-            display: true,
+            display: false,
             text: "American Roads"
         }
     }
