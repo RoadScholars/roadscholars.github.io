@@ -33,7 +33,7 @@ var trace4= {
 var data = [trace1, trace2, trace3, trace4];
 
 var layout = {
-  title: 'Hawaiian Traffic',
+  //title: 'Hawaiian Traffic',
   xaxis: {
     title: 'Year',
     titlefont: {

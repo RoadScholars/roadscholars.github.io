@@ -85,7 +85,7 @@ var mixChart = new Chart(mix, {
         {
           id: "kESAL",
           ticks: {
-            beginAtZero: true,
+            beginAtZero: false,
           },
           scaleLabel: {
             display: true,
