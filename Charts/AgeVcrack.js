@@ -52,57 +52,57 @@ var names = [
    "3008,"
 ];
 var crack = [
-  7788,
-  1684,
-  2505,
-  2044,
-  1441,
-  3257,
-  3617,
-  1673,
-  5689,
-  527,
-  558,
-  2314,
-  135,
-  6105,
-  3686,
-  2086,
-  1438,
-  856,
-  2411,
-  308,
-  2387,
-  5037,
-  6167,
-  1500,
-  2993,
-  4428,
-  1996,
-  1531,
-  7712,
-  1663,
-  579,
-  1088,
-  2557,
-  1493,
-  1732,
-  4882,
-  4175,
-  3388,
-  883,
-  2138,
-  2751,
-  3589,
-  336,
-  1566,
-  5526,
-  1715,
-  4407,
-  956,
-  1036,
-  2339,
-  2068,
+  {	x: 37	,	y: 7788	}	,
+  {	x: 23	,	y: 1684	}	,
+  {	x: 23	,	y: 2505	}	,
+  {	x: 40	,	y: 2044	}	,
+  {	x: 24	,	y: 1441	}	,
+  {	x: 30	,	y: 3257	}	,
+  {	x: 40	,	y: 3617	}	,
+  {	x: 22	,	y: 1673	}	,
+  {	x: 43	,	y: 5689	}	,
+  {	x: 23	,	y: 527	}	,
+  {	x: 37	,	y: 558	}	,
+  {	x: 34	,	y: 2314	}	,
+  {	x: 47	,	y: 135	}	,
+  {	x: 41	,	y: 6105	}	,
+  {	x: 33	,	y: 3686	}	,
+  {	x: 24	,	y: 2086	}	,
+  {	x: 23	,	y: 1438	}	,
+  {	x: 35	,	y: 856	}	,
+  {	x: 24	,	y: 2411	}	,
+  {	x: 51	,	y: 308	}	,
+  {	x: 26	,	y: 2387	}	,
+  {	x: 45	,	y: 5037	}	,
+  {	x: 33	,	y: 6167	}	,
+  {	x: 43	,	y: 1500	}	,
+  {	x: 21	,	y: 2993	}	,
+  {	x: 33	,	y: 4428	}	,
+  {	x: 43	,	y: 1996	}	,
+  {	x: 50	,	y: 1531	}	,
+  {	x: 61	,	y: 7712	}	,
+  {	x: 37	,	y: 1663	}	,
+  {	x: 37	,	y: 579	}	,
+  {	x: 24	,	y: 1088	}	,
+  {	x: 48	,	y: 2557	}	,
+  {	x: 44	,	y: 1493	}	,
+  {	x: 24	,	y: 1732	}	,
+  {	x: 33	,	y: 4882	}	,
+  {	x: 61	,	y: 4175	}	,
+  {	x: 61	,	y: 3388	}	,
+  {	x: 38	,	y: 883	}	,
+  {	x: 21	,	y: 2138	}	,
+  {	x: 26	,	y: 2751	}	,
+  {	x: 61	,	y: 3589	}	,
+  {	x: 49	,	y: 336	}	,
+  {	x: 22	,	y: 1566	}	,
+  {	x: 36	,	y: 5526	}	,
+  {	x: 39	,	y: 1715	}	,
+  {	x: 41	,	y: 4407	}	,
+  {	x: 47	,	y: 956	}	,
+  {	x: 24	,	y: 1036	}	,
+  {	x: 45	,	y: 2339	}	,
+  {	x: 36	,	y: 2068	}	,
 ];
 var age = [
   37,
@@ -159,12 +159,62 @@ var age = [
 ];
 var mix = document.getElementById("AgeVcrack").getContext('2d');
 var mixChart = new Chart(mix, {
-    type: 'bar',
+    type: 'scatter',
     data: {
-        labels: names,
-        datasets: [
+      labels: names,
+      datasets: [{
+        data: crack,
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 3,
+        pointRadius: 5,
+        pointHoverRadius: 10
+      }],
+    },
+  options: {
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, data) {
+          var label = data.labels[tooltipItem.index];
+          return 'Section: ' + label + ': (' + 'Age: ' + tooltipItem.xLabel  + ', ' + 'Crack Length: ' + tooltipItem.yLabel + ')';
+        }
+      }
+    },
+    legend:{
+      display:false,
+      position:'right'
+    },
+    scales: {
+      xAxes: [{
+        gridLines: {
+          display: true,
+        },
+        scaleLabel: {
+          display: true,
+          labelString: 'Age (Years)'
+        },
+      }
+      ],
+      yAxes: [{
+          scaleLabel: {
+            display: true,
+            labelString: 'Crack Length'
+          },
+          gridLines: {
+            display: true
+          }
+        },
+      ],
+      x: {
+        type: 'linear',
+        position: 'bottom'
+      }
+    }
+    }
+        //labels: names,
+        /*datasets: [
             {
-                type: 'line',
+                type: 'scatter',
                 label: "Crack Length",
                 data: crack,
                 borderColor: 'rgba(192, 0, 0, 0.5)',
@@ -223,5 +273,5 @@ var mixChart = new Chart(mix, {
           }
           ]
         },
-    }
+    }*/
 });
