@@ -23,11 +23,12 @@ var mixChart = new Chart(mix, {
         labels: names,
         datasets: [
             {
-                type: 'line',
+                type: 'bar',
                 label: "Crack Length",
                 data: length,
-                borderColor: 'rgba(192, 0, 0, 0.5)',
-                backgroundColor: 'rgba(0, 0, 0, 0)',
+                borderColor: 'rgba(192, 0, 0, 1)',
+                borderWidth: 1,
+                backgroundColor: 'rgba(192, 0, 0, 0.2)',
                 yAxisID: 'Crack Length',
             },
             {
@@ -59,7 +60,7 @@ var mixChart = new Chart(mix, {
                         labelString: 'Crack Length'
                       },
                   gridLines: {
-                      display: false
+                      display: true
                   }
                 },
                 {
@@ -78,6 +79,9 @@ var mixChart = new Chart(mix, {
                 },
             ],
           xAxes: [{
+            ticks: {
+              autoSkip: false
+            },
             gridLines: {
               display: false
             },

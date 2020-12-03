@@ -61,7 +61,7 @@ var kesal = [
 
 var mix = document.getElementById("CaliforniaChart").getContext('2d');
 var mixChart = new Chart(mix, {
-  type: 'bar',
+  type: 'line',
   data: {
     labels: year,
     datasets: [
@@ -70,7 +70,7 @@ var mixChart = new Chart(mix, {
         data: kesal,
         borderColor: 'rgba(54, 162, 235, 1)',
         borderWidth: 3,
-        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
         yAxisID: 'kESAL',
       }
     ]
@@ -92,7 +92,7 @@ var mixChart = new Chart(mix, {
             labelString: 'Kesal'
           },
           gridLines: {
-            display: false
+            display: true
           }
         },
               ],

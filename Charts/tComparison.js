@@ -60,8 +60,9 @@ var trace1 = {
     0,
   ],
   name: 'Arkansas',
+  fill: 'tozeroy',
   marker: {color: 'rgba(54, 162, 235, 1)'},
-  type: 'bar'
+  type: 'scatter'
 };
 
 var trace2 = {
@@ -124,8 +125,9 @@ var trace2 = {
     0,
   ],
   name: 'Oregon',
+  fill: 'tozeroy',
   marker: {color: 'rgba(153, 102, 255, 1)'},
-  type: 'bar'
+  type: 'area'
 };
 
 var trace3 = {
@@ -188,8 +190,9 @@ var trace3 = {
     1384.125,
   ],
   name: 'California',
+  fill: 'tozeroy',
   marker: {color: 'rgba(255, 99, 132, 1)'},
-  type: 'bar'
+  type: 'area'
 };
 
 var data = [trace1, trace2, trace3];
