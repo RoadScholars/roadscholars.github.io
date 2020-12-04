@@ -43,7 +43,7 @@ var myChart = new Chart(pie, {
     },
     options: {
         title: {
-            display: true,
+            display: false,
             text: "Hawaiian Road Types",
             fontSize: 16
         }
