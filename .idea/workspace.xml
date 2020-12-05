@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459fcf0a-aa22-40ae-a0c1-b08dd198cdde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Charts/Findings3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Charts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,14 +35,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
-      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Images" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Data" />
       <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io\Charts" />
+      <recent name="C:\Users\peace\School\ICS 484\Projects\Project 3\HTML-20201117T060411Z-001\HTML\roadscholars.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
